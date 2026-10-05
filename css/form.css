@@ -1,0 +1,51 @@
+    .container h1 {
+        text-align: center;
+    }
+    
+    .texto-encomenda {
+        text-align: center;
+        color: var(--texto-mutado);
+        margin-bottom: 30px;
+    }
+
+    form {
+        max-width: 600px;
+        margin: 0 auto 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    form label {
+        color: var(--texto-escuro);
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    form input,
+    form select,
+    form textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        font-family: inherit;
+        font-size: 15px;
+        background-color: white;
+    }
+
+    form textarea {
+        height: 100px;
+        resize: vertical;
+    }
+
+    form button {
+        background-color: var(--vermelho-vinho);
+        color: white;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
